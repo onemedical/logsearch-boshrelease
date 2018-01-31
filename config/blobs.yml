@@ -1,73 +1,71 @@
----
-java8/openjdk-1.8.0_40.tar.gz:
-  object_id: c1386f34-7585-4f92-b41e-6d9dbbb940ab
-  sha: 590be5c6337753b28acc81d4843e98e6245b5261
-  size: 39630740
 curator/click-3.3.tar.gz:
+  size: 259855
   object_id: 5a17f7ca-b4dc-467a-b5a3-9181dfba17b6
   sha: d716a932b930d71059e49465b6b42e833808369a
-  size: 259855
-curator/urllib3-1.8.3.tar.gz:
-  object_id: f5601b3b-e555-4ca0-b955-c01e4081d0ee
-  sha: 00c92b0c3b0756ae3c4e6262d5bc80023dfe9ca3
-  size: 85466
-python/Python-3.4.3.tgz:
-  object_id: 34ff2b80-c2ca-4075-81a7-164805059d89
-  sha: 94cae02a334c72ea6ba8c056bb2864e2838878d3
-  size: 19554643
-curator/elasticsearch-curator-3.4.0-dev1.tar.gz:
-  object_id: 508de17f-8c5b-4baf-b3e7-63bcd73247dc
-  sha: 8e75e27c24d5b05ff446e778ef9dd3b95c49c91b
-  size: 137108
 curator/elasticsearch-1.7.0.tar.gz:
+  size: 62054
   object_id: 3bdcfe3c-1af6-4777-9a15-2d053d172a15
   sha: 01b76bf67b47a0bcbb69a6d7d00169449f780484
-  size: 62054
-haproxy/pcre-8.38.tar.gz:
-  object_id: 9538f6cf-5cd1-4551-a5c3-1263fb32edf6
-  sha: 3ab418d0026c2a4e693ec783bd60660debc32b8f
-  size: 2053336
+curator/elasticsearch-curator-3.4.0-dev1.tar.gz:
+  size: 137108
+  object_id: 508de17f-8c5b-4baf-b3e7-63bcd73247dc
+  sha: 8e75e27c24d5b05ff446e778ef9dd3b95c49c91b
+curator/urllib3-1.8.3.tar.gz:
+  size: 85466
+  object_id: f5601b3b-e555-4ca0-b955-c01e4081d0ee
+  sha: 00c92b0c3b0756ae3c4e6262d5bc80023dfe9ca3
+elasticseach/elasticsearch-2.4.3.tar.gz:
+  size: 27342693
+  sha: 7f415b3598315c017b0733f50cd47aa837886a7f
 haproxy/haproxy-1.6.5.tar.gz:
+  size: 1563272
   object_id: 5d847e37-7216-49b7-8acf-51ee3101e842
   sha: d9f5b6cade54d958ada2f67c6c7b97c9c8ef14ac
-  size: 1563272
+haproxy/pcre-8.38.tar.gz:
+  size: 2053336
+  object_id: 9538f6cf-5cd1-4551-a5c3-1263fb32edf6
+  sha: 3ab418d0026c2a4e693ec783bd60660debc32b8f
+java8/openjdk-1.8.0_40.tar.gz:
+  size: 39630740
+  object_id: c1386f34-7585-4f92-b41e-6d9dbbb940ab
+  sha: 590be5c6337753b28acc81d4843e98e6245b5261
 java8/openjdk-1.8.0_91.tar.gz:
+  size: 45736783
   object_id: 96f03608-3a60-4a84-bb67-18d92065c371
   sha: 63ff487f3004729d33796e87919c183fa8a4e752
-  size: 45736783
-redis/redis-3.2.0.tar.gz:
-  object_id: 4ecad71b-9684-446e-8b1d-5ffd89f300f2
-  sha: 0c1820931094369c8cc19fc1be62f598bc5961ca
-  size: 1525900
-logstash/logstash-all-plugins-2.3.3-patched.tar.gz:
-  object_id: bc7498b5-b00d-4be2-9fd2-7eecfdde965b
-  sha: 55347f705fa9fa67e8d56ed712090240c5186d7f
-  size: 134808288
 kibana/kibana-4.5.4-linux-x64.tar.gz:
+  size: 33265835
   object_id: 34afb45a-7887-44f0-be0e-cc57b8fba161
   sha: dba409384fe36f1b5ad20e7dd7e6efacdc09ed11
-  size: 33265835
-elasticsearch/elasticsearch-2.3.5.tar.gz:
-  object_id: cd0654d1-c0fd-49c9-8155-045146f5a17a
-  sha: ba8842e4ff35370b9ae6a1a12b7f1d12aa9b5c66
-  size: 27547995
+logstash/logstash-all-plugins-2.3.3-patched.tar.gz:
+  size: 134808288
+  object_id: bc7498b5-b00d-4be2-9fd2-7eecfdde965b
+  sha: 55347f705fa9fa67e8d56ed712090240c5186d7f
 nats_to_syslog/nats_to_syslog_linux_amd64.tar.gz:
+  size: 2094679
   object_id: 5d5d32dc-946c-4a27-9786-df4689706cdb
   sha: d27c56da9cdf214ed39a471f0ca5c970abbd510d
-  size: 2094679
+python/Python-3.4.3.tgz:
+  size: 19554643
+  object_id: 34ff2b80-c2ca-4075-81a7-164805059d89
+  sha: 94cae02a334c72ea6ba8c056bb2864e2838878d3
+redis/redis-3.2.0.tar.gz:
+  size: 1525900
+  object_id: 4ecad71b-9684-446e-8b1d-5ffd89f300f2
+  sha: 0c1820931094369c8cc19fc1be62f598bc5961ca
 ruby2.3/bundler-1.11.2.gem:
+  size: 263168
   object_id: ce2c212f-c2ff-440e-9f4b-c2c214a010f9
   sha: 8eb956dec72da753d3d2a2126c78508b17af434e
-  size: 263168
 ruby2.3/rake-11.2.2.gem:
+  size: 102400
   object_id: 757c960e-1536-4be2-b0d9-d4f587e4c6ab
   sha: 879e7c02b1a0b37333a91f11621f798deb874b6e
-  size: 102400
-ruby2.3/rubygems-2.6.4.tgz:
-  object_id: 4f90feb0-d0cf-41d8-a191-9b63e6f08f27
-  sha: 8ef39e536af2ecd20b0e7a95765fa6a485087ac8
-  size: 478582
 ruby2.3/ruby-2.3.1.tar.gz:
+  size: 17797997
   object_id: 0ab54e2b-3919-4e52-b157-50c8a7704cad
   sha: c39b4001f7acb4e334cb60a0f4df72d434bef711
-  size: 17797997
+ruby2.3/rubygems-2.6.4.tgz:
+  size: 478582
+  object_id: 4f90feb0-d0cf-41d8-a191-9b63e6f08f27
+  sha: 8ef39e536af2ecd20b0e7a95765fa6a485087ac8
