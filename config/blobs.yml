@@ -14,7 +14,7 @@ curator/urllib3-1.8.3.tar.gz:
   size: 85466
   object_id: f5601b3b-e555-4ca0-b955-c01e4081d0ee
   sha: 00c92b0c3b0756ae3c4e6262d5bc80023dfe9ca3
-elasticseach/elasticsearch-2.4.3.tar.gz:
+elasticsearch/elasticsearch-2.4.3.tar.gz:
   size: 27342693
   sha: 7f415b3598315c017b0733f50cd47aa837886a7f
 haproxy/haproxy-1.6.5.tar.gz:
