@@ -1,3 +1,39 @@
+# Note for One Medical Infrastructure team
+
+We created this fork because the main [logsearch-boshrelease](https://github.com/cloudfoundry-community/logsearch-boshrelease) repository did not support Elasticsearch v2.4.3. Because this is a temporary solution, we have not configured an external blobstore for Elasticsearch v2.4.3. To use this with BOSH locally, you will need to download the Elasticsearch tarball and add it to the BOSH blobs before uploading the blob to the director of your choice.
+
+0. Checkout `v204.0.0`
+
+0. Run `bosh sync-blobs` to get all blobs locally
+
+0. Download the elasticsearch tarball:
+```sh
+# If you don't already have wget, install it with `brew install wget`
+$ wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.3.tar.gz
+```
+
+0. Use `bosh add-blob` to add the elasticsearch v2.4.3 tarball to your list of BOSH blobs
+```sh
+$ bosh add-blob ./elasticsearch-2.4.3.tar.gz elasticsearch/elasticsearch-2.4.3.tar.gz
+```
+
+0. Remove `./elasticsearch-2.4.3.tar.gz` (it's been copied into the blobs folder) and commit changes to config/blobs.yml
+```sh
+$ rm elasticsearch-2.4.3.tar.gz
+$ git commit config/blobs.yml -m "Some temporary message"
+```
+
+0. Run `bosh create-release`
+
+  * Do not run this with the `--final` flag. The release created should have a label like `204.0.0+dev.1`
+
+0. Upload your newly created release to the bosh director of your choice
+```sh
+$ bosh -e <director_alias> upload-release 
+```
+
+You're now ready to go with Elasticsearch 2.4.3 on BOSH!
+
 # Logsearch
 
 A scalable stack of [Elasticsearch](http://www.elasticsearch.org/overview/elasticsearch/),
